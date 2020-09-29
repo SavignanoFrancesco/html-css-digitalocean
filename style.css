@@ -19,6 +19,30 @@ a:focus, a:hover {
     text-decoration: none;
 }
 /* NAVBAR */
+.navbar-fixed-top.navbar-menu{
+    top: 60px;
+}
+.navbar-fixed-top.navbar-header-top{
+    z-index: 40;
+    background-color: red;
+}
+
+nav.navbar-header-top{
+    color: #5b6987;
+    font-weight: lighter;
+}
+
+nav.navbar-header-top strong{
+    color: #5b6987;
+}
+
+nav.navbar-header-top .navbar-right{
+    padding:5px;
+}
+
+nav.navbar-header-top strong:hover{
+    color: #006aff;
+}
 
 .navbar-default{
     background-color: white;
@@ -46,7 +70,7 @@ a:focus, a:hover {
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus{
     background-color: transparent;
-    color: #1abc9c;
+    color: #006aff;
 }
 
 .navbar-default .navbar-toggle {
@@ -113,7 +137,33 @@ nav .btn:hover{
     background-color: #006aff
 }
 
+nav .new{
+    background-color: rgb(0,215,210);
+    color: rgb(3,27,78);
+    font-size: 9px;
+    padding:1px;
+    margin-top: 20px;
+        margin-left: 22px;
+}
+
+nav .new:hover{
+    color: rgb(3,27,78);
+    background-color: rgb(0,215,210);
+    font-size: 9px;
+    padding:1px;
+}
+nav .slogan{
+    display: inline;
+
+}
+
 @media screen and (max-width: 992px){
+    .navbar-fixed-top.navbar-menu{
+        top: 0px;
+    }
+    .navbar-fixed-top.navbar-header-top{
+        display: none;
+    }
     .navbar-toggle{
         position: absolute;
         right: 0;
