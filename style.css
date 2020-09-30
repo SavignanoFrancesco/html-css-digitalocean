@@ -130,21 +130,27 @@ nav .btn{
     padding-bottom: 2px;
 }
 
-nav .btn:hover{
-    background-color: #006aff;
-    color: white;
-}
-
 .btn1{
     color: #006aff;
     border: 1px solid #006aff;
     background-color: white;
 }
 
+.btn1:hover{
+    background-color: #006aff;
+    color: white;
+}
+
+
 .btn2{
     color: white;
     border: 1px solid #006aff;
     background-color: #006aff
+}
+
+.btn2:hover{
+    background-color: #006aff;
+    color: white;
 }
 
 nav .new{
@@ -160,6 +166,7 @@ nav .new:hover{
     background-color: rgb(0,215,210);
     font-size: 9px;
 }
+
 nav .slogan{
     display: inline-block;
     margin-top: 18px;
@@ -169,11 +176,56 @@ nav .slogan{
 /* MAIN */
 main{
     padding-top: 126px;
+}
+
+.jumbotron{
     background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
     background-size: cover;
     background-position: bottom;
+    color:white;
+    font-family: 'Roboto', sans-serif;
 }
 
+form{
+    background-color: white;
+    padding: 10px 0;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+form input{
+    display: block;
+
+}
+
+.form-title h4{
+    padding: 20px;
+    color: #031b4e;
+    background-color: #f3f5f9;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: 0 -15px;
+}
+
+
+
+form input, form a{
+    width: 100%;
+}
+
+ .btn-group{
+    background-color: white;
+    border-top: 1px solid #f3f5f9;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn-group .btn:first-of-type{
+    width: 80%;
+}
+.btn-group .btn:last-of-type{
+    width: 20%;
+}
 
 @media screen and (max-width: 992px){
     .navbar-fixed-top.navbar-menu{
