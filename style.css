@@ -18,29 +18,37 @@ a:focus, a:hover {
     color: #006aff;
     text-decoration: none;
 }
+
 /* NAVBAR */
-.navbar-fixed-top.navbar-menu{
-    top: 60px;
-}
-.navbar-fixed-top.navbar-header-top{
-    z-index: 40;
-    background-color: red;
+.navbar{
+    margin-bottom: 0;
+    min-height: unset;
 }
 
-nav.navbar-header-top{
-    color: #5b6987;
+.navbar-fixed-top.navbar-menu{
+    top: 50px;
+    border-top: 1px solid rgb(229,232,237);
+}
+
+.navbar-fixed-top.navbar-header-top{
+    z-index: 40;
+}
+
+nav section.navbar-header-top{
+    color: #76829b;
+}
+
+nav section.navbar-header-top span{
+    color: #76829b;
+}
+
+nav section.navbar-header-top .navbar-right{
+    padding: 0px;
+    font-size: 12px;
     font-weight: lighter;
 }
 
-nav.navbar-header-top strong{
-    color: #5b6987;
-}
-
-nav.navbar-header-top .navbar-right{
-    padding:5px;
-}
-
-nav.navbar-header-top strong:hover{
+nav section.navbar-header-top span:hover{
     color: #006aff;
 }
 
@@ -51,6 +59,7 @@ nav.navbar-header-top strong:hover{
 .navbar-fixed-top {
     border-width: 0;
 }
+
 .navbar-default .navbar-brand{
     color: white;
     font-size: 2.25rem;
@@ -100,6 +109,7 @@ nav img{
     font-weight: bold;
     color: hsl(221,93%,16%);
 }
+
 .nav-menu-obj i{
     position: relative;
     top: 1px;
@@ -141,21 +151,29 @@ nav .new{
     background-color: rgb(0,215,210);
     color: rgb(3,27,78);
     font-size: 9px;
-    padding:1px;
-    margin-top: 20px;
-        margin-left: 22px;
+    padding: 2px 7px;
+    margin-left: 22px;
 }
 
 nav .new:hover{
     color: rgb(3,27,78);
     background-color: rgb(0,215,210);
     font-size: 9px;
-    padding:1px;
 }
 nav .slogan{
-    display: inline;
-
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 12px;
 }
+
+/* MAIN */
+main{
+    padding-top: 126px;
+    background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+    background-size: cover;
+    background-position: bottom;
+}
+
 
 @media screen and (max-width: 992px){
     .navbar-fixed-top.navbar-menu{
@@ -177,5 +195,8 @@ nav .slogan{
     }
     .navbar-header{
         padding-bottom: 30px;
+    }
+    main{
+        padding-top: 76px;
     }
 }
