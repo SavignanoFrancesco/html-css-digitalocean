@@ -19,6 +19,20 @@ h1, h2, h3, h4, h5, h6{
     line-height: 1;
 }
 
+h2{
+    color: #031b4e;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    line-height: 150%;
+    color: #5b6987;
+    padding-top: 15px;
+}
+
 a:focus, a:hover {
     color: #006aff;
     text-decoration: none;
@@ -181,6 +195,7 @@ nav .slogan{
 /* MAIN */
 main{
     padding-top: 126px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .jumbotron{
@@ -188,7 +203,6 @@ main{
     background-size: cover;
     background-position: bottom;
     color:white;
-    font-family: 'Roboto', sans-serif;
     margin-bottom: 0;
 }
 
@@ -197,16 +211,15 @@ main{
 }
 .jumbo-left h1{
     line-height: 1;
-}
-
-.jumbo-left h1{
     font-weight: bolder;
 }
 
+.jumbo-left p{
+    color: #fff;
+}
+
 .jumbo-right{
-    /* padding: 100px 0; */
-    max-width: 370px;
-    min-width: 200px;
+    max-width: 380px;
     margin-top: 20px;
 }
 
@@ -253,7 +266,6 @@ form .btn2{
     font-weight: bolder;
     font-size: 18px;
     padding: 20px 0;
-    margin-bottom: 20px;
 }
 
 form .btn2:hover{
@@ -283,9 +295,6 @@ form .btn2:hover{
 .btn-multi .btn1:hover i{
     color: #006aff;
 }
-
-
-
 
  .btn-multi{
     background-color: white;
@@ -327,11 +336,6 @@ form .btn2:hover{
     padding: 25px;
 }
 
-.images img{
-    display: inline-block;
-}
-
-
 .trust a{
     font-size: 15px;
     font-weight: bolder;
@@ -347,10 +351,9 @@ form .btn2:hover{
     top: 1px;
 }
 
-.trust .container{
-    width: 100%;
+.deploy{
+    padding: 50px;
 }
-
 @media screen and (max-width: 992px){
     .navbar-fixed-top.navbar-menu{
         top: 0px;
