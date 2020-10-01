@@ -380,6 +380,47 @@ form .btn2:hover{
     padding-top: 15px;
 }
 
+.designed{
+    background-color: #f3f5f9;
+    padding: 50px 0;
+}
+
+.designed img{
+    max-width: 100%;
+}
+
+.designed i{
+    font-size: 40px;
+}
+
+.designed p{
+    padding-bottom: 40px;
+}
+
+.carousel p{
+    font-size: 16px;
+    color: #5b6987;
+    padding-top: 15px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.left-arrow, .right-arrow{
+    padding-top: 185px;
+}
+
+.bullets a{
+    border-radius: 50%;
+    border: 1px solid blue;
+    padding: 0 2px;
+    font-size: 5px;
+    margin: 0 5px;
+    color: transparent;
+}
+.bullets a:hover{
+    background-color: blue;
+}
+
 @media screen and (max-width: 992px){
     .navbar-fixed-top.navbar-menu{
         top: 0px;
@@ -443,6 +484,12 @@ form .btn2:hover{
         border-bottom: 2px solid  #006aff;
         border-left: none;
     }
+    .designed i{
+        display: none;
+    }
+    .carousel{
+        margin: -220px 0;
+    }
 }
 
 /* mantiene centrato il form  */
@@ -450,5 +497,9 @@ form .btn2:hover{
     .jumbo-right{
         margin: 0px 50%;
         transform: translate(-50%, 0);
+    }
+    .deploy-menu{
+        padding: 10px 0;
+
     }
 }
