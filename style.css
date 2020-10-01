@@ -364,6 +364,7 @@ form .btn2:hover{
 .deploy-menu:hover{
     border-left: 2px solid #006aff;
 }
+
 @media screen and (max-width: 992px){
     .navbar-fixed-top.navbar-menu{
         top: 0px;
@@ -412,15 +413,10 @@ form .btn2:hover{
     }
 }
 
-/* mantiene centrato il form  */
-@media screen and (max-width: 767px){
-    .jumbo-right{
-        margin: 0px 50%;
-        transform: translate(-50%, 0);
-    }
-}
-
 @media screen and (max-width: 991px) {
+    .deploy{
+        text-align: center;
+    }
     .deploy-menu{
         float: left;
         width: calc(100% / 5);
@@ -431,5 +427,13 @@ form .btn2:hover{
     .deploy-menu:hover{
         border-bottom: 2px solid  #006aff;
         border-left: none;
+    }
+}
+
+/* mantiene centrato il form  */
+@media screen and (max-width: 767px){
+    .jumbo-right{
+        margin: 0px 50%;
+        transform: translate(-50%, 0);
     }
 }
