@@ -14,6 +14,11 @@ a {
     text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    line-height: 1;
+}
+
 a:focus, a:hover {
     color: #006aff;
     text-decoration: none;
@@ -187,7 +192,10 @@ main{
 }
 
 .jumbo-left{
-    padding: 180px 0;
+    padding: 150px 0;
+}
+.jumbo-left h1{
+    line-height: 1;
 }
 
 .jumbo-left h1{
@@ -195,14 +203,17 @@ main{
 }
 
 .jumbo-right{
-    padding: 100px 0;
+    /* padding: 100px 0; */
+    max-width: 370px;
+    min-width: 200px;
+    margin-top: 20px;
 }
 
 form{
     background-color: white;
-    padding: 10px 0;
-    padding-right: 1px;
-    padding-left: 1px;
+    padding: 25px 20px;
+    width: 100%;
+    display: inline-block;
 }
 
 form input[type="text"],input[type="email"],input[type="tel"], input[type="password"], select {
@@ -211,7 +222,6 @@ form input[type="text"],input[type="email"],input[type="tel"], input[type="passw
 
 form input{
     color: hsl(221,93%,16%);
-    display: block;
     font-size: 16px;
     width: 100%;
     padding: 15px 10px;;
@@ -227,12 +237,11 @@ form input{
 
 .form-title h4{
     font-weight: bolder;
-    padding: 25px 0;
-    color: #031b4e;
-    background-color: #f3f5f9;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    margin: 0 -15px;
+padding: 25px 0;
+color: #031b4e;
+background-color: #f3f5f9;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
 }
 
 form a {
@@ -250,11 +259,14 @@ form .btn2:hover{
     background-color: #1633ff;
 }
 
+.btn-multi{
+    padding: 15px;
+}
+
 .btn-multi .btn1{
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 100%;
     padding: 10px 0;
-    margin: 20px 0;
     border-radius: 5px;
 }
 
@@ -283,17 +295,19 @@ form .btn2:hover{
 
 .btn-multi .btn:first-of-type{
     width: 80%;
-    float: left;
 }
 
 .btn-multi .btn:last-of-type{
     width: calc(20% - 8px);
-    margin-left: 8px;
     border-top-left-radius: 5;
     border-bottom-left-radius: 5;
-    float: left;
+    display: inline-block;
 }
 
+.terms{
+    font-size: 12px;
+    padding-top: 10px;
+}
 
 @media screen and (max-width: 992px){
     .navbar-fixed-top.navbar-menu{
@@ -331,12 +345,22 @@ form .btn2:hover{
 
     .jumbo-right{
         padding: 0 0;
+        text-align: center;
     }
 }
+
 
 /* media per non far floattare una parte del form a sinistra */
 @media screen and (width: 992px){
     .jumbo-left{
         padding: 80px;
+    }
+}
+
+/* mantiene centrato il form  */
+@media screen and (max-width: 767px){
+    .jumbo-right{
+        margin: 0px 50%;
+        transform: translate(-50%, 0);
     }
 }
