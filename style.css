@@ -17,6 +17,7 @@ a {
 h1, h2, h3, h4, h5, h6{
     margin: 0;
     line-height: 1;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2{
@@ -24,6 +25,11 @@ h2{
     font-weight: bolder;
     font-size: 36px;
     text-align: center;
+}
+h4{
+    color: #031b4e;
+    font-weight: bolder;
+    font-size: 18px;
 }
 
 p{
@@ -195,7 +201,6 @@ nav .slogan{
 /* MAIN */
 main{
     padding-top: 126px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .jumbotron{
@@ -359,10 +364,20 @@ form .btn2:hover{
     font-size: 16px;
     color: rgba(3, 27, 78, 0.6);
     border-left: 2px solid lightgrey;
-    padding: 10px 20px;
+    padding: 15px 20px;
 }
 .deploy-menu:hover{
     border-left: 2px solid #006aff;
+}
+
+.deploy img{
+    padding-bottom: 20px;
+}
+
+.deploy-right p{
+    font-size: 16px;
+    color: #5b6987;
+    padding-top: 15px;
 }
 
 @media screen and (max-width: 992px){
@@ -422,7 +437,7 @@ form .btn2:hover{
         width: calc(100% / 5);
         border-bottom: 2px solid lightgrey;
         border-left: none;
-        font-size: auto;
+        margin-bottom: 50px;
     }
     .deploy-menu:hover{
         border-bottom: 2px solid  #006aff;
