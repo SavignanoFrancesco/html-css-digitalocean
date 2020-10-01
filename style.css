@@ -189,6 +189,7 @@ main{
     background-position: bottom;
     color:white;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
 }
 
 .jumbo-left{
@@ -307,6 +308,47 @@ form .btn2:hover{
 .terms{
     font-size: 12px;
     padding-top: 10px;
+}
+
+/* TRUST */
+.trust{
+    background-color: #f3f5f9;
+    text-align: center;
+    padding: 50px;
+}
+
+.trust h4{
+    color: #5b6987;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.img-row{
+    padding: 25px;
+}
+
+.images img{
+    display: inline-block;
+}
+
+
+.trust a{
+    font-size: 15px;
+    font-weight: bolder;
+    color: #006aff;
+}
+
+.trust a:hover{
+    color:  #1633ff;
+}
+
+.fa-angle-right{
+    position: relative;
+    top: 1px;
+}
+
+.trust .container{
+    width: 100%;
 }
 
 @media screen and (max-width: 992px){
