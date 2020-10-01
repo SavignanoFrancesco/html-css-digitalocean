@@ -332,10 +332,6 @@ form .btn2:hover{
     font-weight: bolder;
 }
 
-.img-row{
-    padding: 25px;
-}
-
 .trust a{
     font-size: 15px;
     font-weight: bolder;
@@ -353,6 +349,20 @@ form .btn2:hover{
 
 .deploy{
     padding: 50px;
+}
+.deploy p{
+    padding-bottom: 40px;
+}
+
+.deploy-menu{
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgba(3, 27, 78, 0.6);
+    border-left: 2px solid lightgrey;
+    padding: 10px 20px;
+}
+.deploy-menu:hover{
+    border-left: 2px solid #006aff;
 }
 @media screen and (max-width: 992px){
     .navbar-fixed-top.navbar-menu{
@@ -407,5 +417,19 @@ form .btn2:hover{
     .jumbo-right{
         margin: 0px 50%;
         transform: translate(-50%, 0);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .deploy-menu{
+        float: left;
+        width: calc(100% / 5);
+        border-bottom: 2px solid lightgrey;
+        border-left: none;
+        font-size: auto;
+    }
+    .deploy-menu:hover{
+        border-bottom: 2px solid  #006aff;
+        border-left: none;
     }
 }
