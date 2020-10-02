@@ -1,8 +1,11 @@
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 body{
     font-family: 'Varela Round', sans-serif;
@@ -609,7 +612,7 @@ footer{
 
 .upper-footer .row{
     padding: 40px 0;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid hsla(0,0%,100%,0.2);
 }
 
 .upper-footer ul{
@@ -631,6 +634,29 @@ footer{
 .upper-footer a:hover{
     color:white;
 }
+
+.credits img{
+    padding: 20px 10px;
+}
+
+.credits span{
+    color: hsla(0,0%,100%,0.5);
+    font-size: 12px;
+}
+
+.socials{
+    float: right;
+}
+
+.socials i{
+    font-size: 20px;
+    color: hsla(0,0%,100%,0.5);
+    padding: 33px 5px;
+}
+.socials i:hover{
+    color:white;
+}
+
 
 @media screen and (max-width: 992px){
     .navbar-fixed-top.navbar-menu{
@@ -770,4 +796,17 @@ footer{
         position: relative;
         transform: translateX(0);
     }
+
+    .credits{
+        text-align: center;
+    }
+    .credits img{
+        max-width: 50px;
+    }
+    .socials{
+        float: unset;
+        display: table;
+        margin: 0 auto;
+    }
+
 }
