@@ -478,27 +478,27 @@ form .btn2:hover{
     color:  #1633ff;
 }
 
-ul{
+.service ul{
     list-style-type: none;
     padding: 20px 0px;
 }
 
 
-ul li{
+.service ul li{
     border-bottom: 1px solid hsla(0,0%,100%,0.2);
 }
 
-ul li::after{
+.service ul li::after{
   content: "";
   display: table;
   clear: both;
 }
 
-ul li > *{
+.service ul li > *{
     padding: 10px 20px;
 }
 
-ul h3{
+.service ul h3{
     display: inline-block;
     padding-left: 0;
     font-size: 16px;
@@ -506,11 +506,11 @@ ul h3{
     font-weight: bolder;
 }
 
-ul li span{
+.service ul li span{
     color: rgba(255, 255, 255, 0.5);
 }
 
-ul li a{
+.service ul li a{
     display: inline-block;
     padding-right: 0;
     float: right;
@@ -603,6 +603,34 @@ img.rockerbox-logo{
     background-color:rgba(225,225,225,0.9);
 }
 
+footer{
+    background-color: hsl(220,95%,8%);
+}
+
+.upper-footer .row{
+    padding: 40px 0;
+    border-bottom: 1px solid grey;
+}
+
+.upper-footer ul{
+    list-style-type: none;
+}
+
+.upper-footer h4{
+    font-size: 14px;
+    color: hsl(0,0%,100%);
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.upper-footer a{
+    display: inline-block;
+    color: hsla(0,0%,100%,0.5);
+    padding: 5px 0;
+    font-size: 12px;
+}
+.upper-footer a:hover{
+    color:white;
+}
 
 @media screen and (max-width: 992px){
     .navbar-fixed-top.navbar-menu{
@@ -681,6 +709,7 @@ img.rockerbox-logo{
     .built img{
         padding-top: 40px;
     }
+
     ul:first-of-type{
         padding-bottom: 0;
         margin-bottom: 0;
@@ -713,6 +742,13 @@ img.rockerbox-logo{
         transform: translateX(-50%);
         left: 50%;
         margin-top:10px;
+    }
+    .upper-footer a{
+        padding: 0px 0;
+    }
+    .upper-footer h4{
+        padding: 0;
+        padding-top: 20px;
     }
 
 }
