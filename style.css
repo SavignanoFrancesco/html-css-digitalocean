@@ -520,6 +520,62 @@ ul li a{
     color: #00d7d2;
 }
 
+.development p a{
+    color: #0069ff;
+}
+
+.development p a:hover{
+    color:  #1633ff;
+}
+
+.rockerbox a{
+    font-size: 16px;
+}
+
+.rockerbox{
+    margin-bottom: 40px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 24px -7px lightgrey;
+}
+
+img.rockerbox-logo{
+    padding: 40px 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.rockerbox span{
+    display: block;
+}
+
+.rockerbox span:first-of-type{
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 400;
+    font-style: normal;
+    color: #5b6987;
+}
+
+.rockerbox span:last-of-type{
+    margin-top: 4px ;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #5b6987;
+    font-weight: lighter;
+}
+
+.development .bullets a{
+    display: inline-block;
+    position: relative;
+    transform: translateX(-150%);
+}
+
+.development .left-arrow, .development .right-arrow{
+    padding-top: 15%;
+}
+
 @media screen and (max-width: 992px){
     .navbar-fixed-top.navbar-menu{
         top: 0px;
@@ -622,5 +678,10 @@ ul li a{
     .deploy-menu{
         padding: 10px 0;
 
+    }
+    .development .bullets a{
+        display: inline-block;
+        position: relative;
+        transform: translateX(0);
     }
 }
