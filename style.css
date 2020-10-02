@@ -44,45 +44,6 @@ a:focus, a:hover {
     text-decoration: none;
 }
 
-ul{
-    list-style-type: none;
-    padding: 20px 0px;
-}
-
-
-ul li{
-    border-bottom: 1px solid hsla(0,0%,100%,0.2);
-    margin-bottom: 10px;
-}
-
-ul li::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-ul li > *{
-    padding: 10px 20px;
-}
-
-ul h3{
-    display: inline-block;
-    padding-left: 0;
-    font-size: 16px;
-    color: white;
-    font-weight: bolder;
-}
-
-ul li span{
-    color: rgba(255, 255, 255, 0.5);    
-}
-
-ul li a{
-    display: inline-block;
-    padding-right: 0;
-    float: right;
-}
-
 /* NAVBAR */
 .navbar{
     margin-bottom: 0;
@@ -517,6 +478,47 @@ form .btn2:hover{
     color:  #1633ff;
 }
 
+ul{
+    list-style-type: none;
+    padding: 20px 0px;
+}
+
+
+ul li{
+    border-bottom: 1px solid hsla(0,0%,100%,0.2);
+}
+
+ul li::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul li > *{
+    padding: 10px 20px;
+}
+
+ul h3{
+    display: inline-block;
+    padding-left: 0;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+}
+
+ul li span{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+ul li a{
+    display: inline-block;
+    padding-right: 0;
+    float: right;
+}
+
+.service ul a{
+    color: #00d7d2;
+}
 
 @media screen and (max-width: 992px){
     .navbar-fixed-top.navbar-menu{
@@ -606,8 +608,8 @@ form .btn2:hover{
     ul li > *{
         padding:10px 1%;
     }
-    ul li h3{
-
+    ul li{
+        margin-bottom: 10px;
     }
 }
 
