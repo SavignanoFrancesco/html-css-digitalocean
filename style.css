@@ -572,7 +572,6 @@ img.rockerbox-logo{
 .development .bullets a{
     display: inline-block;
     position: relative;
-    transform: translateX(-150%);
 }
 
 .development .left-arrow, .development .right-arrow{
