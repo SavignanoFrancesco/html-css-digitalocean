@@ -331,7 +331,7 @@ form .btn2:hover{
 .trust{
     background-color: #f3f5f9;
     text-align: center;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .trust h4{
@@ -356,7 +356,7 @@ form .btn2:hover{
 }
 
 .deploy{
-    padding: 50px;
+    padding: 50px 0;
 }
 .deploy p{
     padding-bottom: 40px;
